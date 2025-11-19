@@ -38,3 +38,9 @@ for i in range(5):
     if kor[i] >= 60 :
        sum = sum+ kor[i]
 print(f"누적합= {sum}")
+
+
+for index in range(len(kor)):
+    total = kor[index] + eng[index]
+    avg = total / 2
+    print(f'total_scores : {total}, avg_scores : {avg}')
