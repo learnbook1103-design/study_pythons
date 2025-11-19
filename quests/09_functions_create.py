@@ -31,12 +31,12 @@ print(sum_above_60([40, 50, 60, 70, 80]))
 
 # 문제 4
 #문자열 두 개를 받아 하나의 문장으로 이어 붙이는 함수 combine(str1, str2) 작성
-def cimbine(str1, str2):
+def combine(str1, str2):
     combined = str1 + " " + str2
     return combined
-print(cimbine("Hello", "World"))
-print(cimbine("Python", "Programming"))
-print(cimbine("Function", "Creation"))
+print(combine("Hello", "World"))
+print(combine("Python", "Programming"))
+print(combine("Function", "Creation"))
 
 # 문제 5
 # 온도 리스트를 받아 모두 섭씨로 변환해 새로운 리스트로 반환하는 함수 작성.
