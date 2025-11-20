@@ -42,8 +42,7 @@ def get_for_sum(korean, english, mathematics):
         math = mathematics[i]
         summation = kor + eng + math
         print(f"{i+1}번 학생 총점: {summation}")
-    
     return 0
 
-get_for_sum(kor_scores, eng_scores, math_scores)
+print(get_for_sum(kor_scores, eng_scores, math_scores))
 
